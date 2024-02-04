@@ -1,10 +1,10 @@
 import Header from './components/Header'
 import { Tasks } from './Tasks';
-import { useState,useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import AddTaskForm from './components/AddTaskForm';
 import Footer from './components/Footer';
 
-function App() {
+const App = () => {
     const [showAddTask, setshowAddTask] = useState(false);
     const [tasks, setTasks]=useState([])
 
